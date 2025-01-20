@@ -60,6 +60,10 @@ line-height: 1.5;
 padding: 20px;
 }
 
+.hidden {
+display: none;
+}
+
 .poem strong {
     color:#00008B;
 }
@@ -73,3 +77,19 @@ text-align: center;
 a {
 color: #696969;
 }
+
+.hourglass {
+    animation: rotate 2s infinite linear;
+    display: inline-block;
+    font-size: 30px;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
